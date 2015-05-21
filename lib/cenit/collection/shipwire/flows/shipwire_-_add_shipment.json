@@ -1,0 +1,31 @@
+{
+  "name": "ShipWire -> Add Shipment",
+  "active": true,
+  "discard_events": false,
+  "data_type_scope": "Event source",
+  "last_trigger_timestamps": "2015-04-15 14:48:37 UTC",
+  "event": {
+    "$referenced": true,
+    "name": "Ecommerce | Shipment on created_at"
+  },
+  "translator": {
+    "$referenced": true,
+    "name": "Make Send Request"
+  },
+  "custom_data_type": {
+    "$referenced": true,
+    "name": "Shipment",
+    "schema": {
+      "$referenced": true,
+      "uri": "shipment.json",
+      "library": {
+        "$referenced": true,
+        "name": "Ecommerce"
+      }
+    }
+  },
+  "webhook": {
+    "$referenced": true,
+    "name": "ShipWire | Add Shipment"
+  }
+}

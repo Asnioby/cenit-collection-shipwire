@@ -1,0 +1,22 @@
+{
+  "name": "ShipWire Connection",
+  "url": "http://shipwire.cenithub.com",
+  "connection_roles": [
+    {
+      "$referenced": true,
+      "name": "ShipWire Rol"
+    }
+  ],
+  "template_parameters": [
+    {
+      "key": "shipwire_username"
+    },
+    {
+      "key": "shipwire_password"
+    },
+    {
+      "key": "shipment_tracking_bookmark",
+      "value": "1"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ShipWire | Get Shipments",
+  "path": "get_shipments",
+  "purpose": "receive",
+  "method": "post",
+  "connection_roles": [
+    {
+      "$referenced": true,
+      "name": "ShipWire Rol"
+    }
+  ]
+}
