@@ -1,15 +1,15 @@
 {
-  "name": "Shipwire CENIT Integration",
-  "category": "Collection",
-  "description": "Shipwire CENIT Integration",
-  "pull_parameters": [
-    {
-      "label": "ShipWire Username",
-      "parameter": "On connection 'ShipWire Connection' template parameter 'shipwire_username'"
-    },
-    {
-      "label": "ShipWire Password",
-      "parameter": "On connection 'ShipWire Connection' template parameter 'shipwire_password'"
-    }
-  ]
+    "name": "Shipwire CENIT Integration",
+    "category": "Collection",
+    "description": "Shipwire CENIT Integration",
+    "pull_parameters": [
+        {
+            "label": "ShipWire Username",
+            "parameter": "On connection 'ShipWire Connection' template parameter 'shipwire_username'"
+        },
+        {
+            "label": "ShipWire Password",
+            "parameter": "On connection 'ShipWire Connection' template parameter 'shipwire_password'"
+        }
+    ]
 }
